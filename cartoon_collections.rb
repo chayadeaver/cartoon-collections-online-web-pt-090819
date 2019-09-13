@@ -12,13 +12,12 @@ end
 def long_planeteer_calls(array)
   array.each do |calls|
     array.any? do |calls|
-      calls.length > 4
+      if calls.length > 4
         return true
+      else
+        return false
     end
-    array.all? do |calls|
-      calls.length < 4
-      return false
-    end
+    
   end# Your code here
 end
 

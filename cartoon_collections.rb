@@ -24,5 +24,6 @@ def find_the_cheese(array)
       i += 1
     end
     nil
+  end
   end# the array below is here to help
 end

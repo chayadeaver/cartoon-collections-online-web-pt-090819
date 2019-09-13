@@ -18,8 +18,8 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   i = 0# code an argument here
-  cheese = ""
+  cheese = []
   array.include?(cheese_types[i]) do
-    "#{array.first}"
+    cheese << array.first
   end# the array below is here to help
 end

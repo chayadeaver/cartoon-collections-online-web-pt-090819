@@ -9,8 +9,16 @@ def summon_captain_planet(array)# code an argument here
   array.collect {|word| "#{word.capitalize}!"}# Your code here
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array)
+  i = 0# code an argument here
+  while i < array.length
+    yield(calls_long[i])
+  end
+  if calls_long.include?(true)
+    true
+  else
+    false
+  end  # Your code here
 end
 
 def find_the_cheese# code an argument here

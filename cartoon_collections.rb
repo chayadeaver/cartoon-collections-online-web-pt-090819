@@ -18,7 +18,7 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   i = 0# code an argument here
-  array.include?(cheese_types[i]) do
-    array(cheese_types[i])
+  array.find?(cheese_types[i]) do
+    array.first
   end# the array below is here to help
 end

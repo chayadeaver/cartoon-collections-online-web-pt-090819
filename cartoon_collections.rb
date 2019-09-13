@@ -20,6 +20,6 @@ def find_the_cheese(array)
   i = 0# code an argument here
   cheese = ""
   array.include?(cheese_types[i]) do
-    cheese = array.first
+    "#{array.first}"
   end# the array below is here to help
 end

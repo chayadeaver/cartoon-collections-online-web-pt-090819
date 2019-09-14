@@ -18,6 +18,6 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   i = 0# code an argument here
-  array.find {|cheese| array.include?(cheese)}
+  array.find {|cheese| array.include?(cheese_types) return cheese }
 
 end
